@@ -1,0 +1,19 @@
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# Local/system files
+.DS_Store
+Thumbs.db
+
+# Temporary exports
+*.tmp
+*.log
+
+# Sensitive local data
+customer-data/
+applications/
+kyc/
